@@ -89,13 +89,13 @@ select choice in $answers
 do
 case $choice in
 			Metasploit)
-						echo "Metaspoloit Section"
-						;;
+				echo "Metaspoloit Section"
+				;;
 			Meterpreter)
-						echo "Meterpreter Section"
-						;;
+				echo "Meterpreter Section"
+				;;
 			Close!)
-						echo "Goodbye"
+				echo "Goodbye"
 				exit
 				;;
 			*)
